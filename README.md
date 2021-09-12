@@ -11,7 +11,7 @@ Run training_and_testing.ipynb file for segmentation of endoscopic images.
 6. numpy
 7. matplotlib
 
-<i>Note:<i> To install required libraries use `pip install <package-name>`
+<i>Note:</i> To install required libraries use `pip install <package-name>`
 
 ## Preprocessing Steps:
 1. Resize images and masks to (256, 256) using files provided in resizing_images_masks folder.
