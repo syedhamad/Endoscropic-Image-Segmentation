@@ -2,6 +2,17 @@
 
 Run training_and_testing.ipynb file for segmentation of endoscopic images.
 
+## Requirements:
+1. tensorflow==2x
+2. keras>=2
+3. segmentation-models==1.0.1
+4. h5py==2.10.0
+5. ImageDataAugmentor ($ pip install git+https://github.com/mjkvaak/ImageDataAugmentor)
+6. numpy
+7. matplotlib
+
+<i>Note:<i> To install required libraries use `pip install <package-name>`
+
 ## Preprocessing Steps:
 1. Resize images and masks to (256, 256) using files provided in resizing_images_masks folder.
 2. Run train_val_test_split.ipynb file with your original directories to split your dataset.
